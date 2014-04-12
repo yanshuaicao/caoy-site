@@ -1,0 +1,31 @@
+.. link: 
+.. description: 
+.. tags: 
+.. date: 2013/11/10 22:48:24
+.. title: Efficient Optimization for Sparse Gaussian Process Regression
+.. slug: index
+
+`Cao, Y. <../index.html>`_, `Brubaker, M. <http://www.cs.toronto.edu/~mbrubake/>`_,
+`Fleet, D.J. <http://www.cs.toronto.edu/~fleet/>`_ and `Hertzmann, A <http://www.dgp.toronto.edu/~hertzman/>`_. 
+
+*Advances in Neural Information Processing Systems (NIPS)*, Lake Tahoe, 2013. 
+
+*We propose an efficient optimization algorithm for selecting a subset of training data to induce sparsity for Gaussian process regression. The algorithm estimates an inducing set and the hyperparameters using a single objective, either the marginal likelihood or a variational free energy. The space and time complexity are linear in training set size, and the algorithm can be applied to large regression problems on discrete or continuous domains. Empirical evaluation shows state-of-art performance in discrete cases and competitive results in the continuous case.*
+
+|
+
+.. image:: CholQR-var-snelson-1D-small.png
+   :width: 20%
+.. image:: snelson_1D_cost-reduction-approx-vs-exact.png
+   :width: 20%
+.. image:: snelson_1D_OR-cost-reduction-approx-vs-exact.png
+   :width: 20%
+
+|
+
+`Paper <http://arxiv.org/abs/1310.6007>`_   
+
+`Supplementary material <supplementary_material_opt_sgpr.pdf>`_
+
+`Code <https://github.com/yanshuaicao/gp_cholqr>`_
+

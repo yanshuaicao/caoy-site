@@ -1,0 +1,112 @@
+.. link: 
+.. description: 
+.. tags: 
+.. date: 2013/11/10 19:13:03
+.. title:     
+.. slug: index
+.. hidetitle: True 
+
+
+.. figure:: yanshuai_cao.jpg
+   :height: 1280
+   :width: 960
+   :scale: 20
+   :align: right
+
+
+**Research Interest**
+
+I am interested in computer vision, machine learning, and
+Bayesian inference. At the moment, I am focusing on sparse Gaussian processes and improving large computer vision systems using Bayesian optimization. I
+am also fascinated about understanding the geometry and topology of
+high dimensional machine learning problems. For more of my recent musings, check out `my research blog <http://research-caoy.blogspot.ca>`_. 
+
+================
+
+**About Me**
+
+I'm a Ph.D. student in the computer vision group of the department of Computer Science at
+University of Toronto. My supervisors are `David Fleet <http://www.cs.toronto.edu/~fleet/>`_ and `Aaron
+Hertzmann (at Adobe research now)
+<http://www.dgp.toronto.edu/~hertzman/>`_. You can reach me via email: caoy at cs dot
+toronto dot edu, or find me in Pratt-263. 
+
+
+================
+
+**Publication**
+
+`Efficient Optimization for Sparse Gaussian Process Regression <http://arxiv.org/abs/1310.6007>`_
+
+Cao, Y., `Brubaker, M. <http://www.cs.toronto.edu/~mbrubake/>`_,
+`Fleet, D.J. <http://www.cs.toronto.edu/~fleet/>`_ and `Hertzmann, A <http://www.dgp.toronto.edu/~hertzman/>`_. 
+
+*Advances in Neural Information Processing Systems (NIPS)*, Lake Tahoe, 2013. 
+
+*We propose an efficient optimization algorithm for selecting a subset of training data to induce sparsity for Gaussian process regression. The algorithm estimates an inducing set and the hyperparameters using a single objective, either the marginal likelihood or a variational free energy. The space and time complexity are linear in training set size, and the algorithm can be applied to large regression problems on discrete or continuous domains. Empirical evaluation shows state-of-art performance in discrete cases and competitive results in the continuous case.*
+
+`Project page <opt_sgpr/index.html>`_
+
+================
+
+**TAship**
+
+`CSCC11: Introduction to Machine Learning and Data Mining (Fall 2013) <http://www.cs.toronto.edu/~mbrubake/teaching/C11-Fall2013/>`_
+
+`CSC108 Introduction to Computer Programming (Fall 2013) <http://www.cdf.toronto.edu/~csc108h/fall/>`_
+
+Previous TAships: CSC104, CSC120, CSC148
+
+================
+
+**Course Projects**
+
+--------------------------------------------------------------------------
+
+Sequential Decision Making For Vision Tracking
+
+Final project for CSC2534: Decision Making Under Uncertainty (Winter 2013)
+
+*In this project, we propose a formulation of vision tracking under sequential the
+decision making frameworks of Markov decision process (MDP) and partially
+observable Markov decision process (POMDP). From a very simple basic tracker,
+we build an interactive tracking algorithm that is capable of robustly track targets
+over long sequences, while still being as autonomous as it can be. We study the
+effect of uncertainty of state information, and the impact of active observation
+gathering versus passive observation under the framework.*
+
+--------------------------------------------------------------------------
+
+A Bayesian Approach to Modeling Social Conversation Groups
+
+Final project for CSC2541: Topics in Machine Learning: Bayesian Methods for Machine Learning (Winter 2011)
+
+*Constraints in social interaction is valuable prior information for detecting or tracking people in computer vision. This project proposes a probabilistic model of spatial relations among people in social events where conversation groups form. The model is based on very intuitive principles behind  how people socialize, and it can reproduce a number of the observed phenomena. By using MCMC, one can infer the true position and orientation of people as well as conversation group memberships given observation. Finally, a framework in which the model could facilitate tracking multiple interacting people is discussed.*
+
+--------------------------------------------------------------------------
+
+An Appearance Model Based On Transforming Autoencoders For Vision Tracking
+
+Final project for CSC2535: Advanced Machine Learning (Winter 2011)
+
+*In this project, transforming autoencoder is used to build an
+appearance model that captures parts and spatial relationships
+among parts of target objects for vision tracking. 
+With a very limited motion model, and basic particle filtering,
+the resulting tracker is able to track target MNIST digit in the presence of distractors with
+diﬀerent or similar appearance.*
+
+
+================
+
+**Hobbies and other interests**
+
+I love Chinese poetry and occasionally `write some myself
+<http://poetry-caoy.blogspot.ca/>`_.
+
+I also love the arts of Muay Thai and boxing, and I used to train at
+`WMT <http://www.warriormuaythai.com/>`_. 
+
+|
+|
+|
