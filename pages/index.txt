@@ -17,7 +17,7 @@
 **Research Interest**
 
 I am interested in computer vision, machine learning, and
-Bayesian inference. At the moment, I am focusing on sparse Gaussian processes and improving large computer vision systems using Bayesian optimization. I
+Bayesian inference. At the moment, I am focusing on scaling Gaussian processes with applications to computer vision systems. I
 am also fascinated about understanding the geometry and topology of
 high dimensional machine learning problems. For more of my recent musings, check out `my research blog <http://research-caoy.blogspot.ca>`_. 
 
@@ -36,6 +36,27 @@ toronto dot edu, or find me in Pratt-263.
 
 **Publication**
 
+`Generalized Product of Experts for Automatic and Principled Fusion of Gaussian Process Predictions <http://arxiv.org/abs/1410.7827>`_
+
+Cao, Y., `Fleet, D.J. <http://www.cs.toronto.edu/~fleet/>`_
+
+*Modern Nonparametrics 3: Automating the Learning Pipeline workshop at NIPS*, Montreal, 2014.
+
+*In this work, we propose a generalized product of
+experts (gPoE) framework for combining the predictions of multiple
+probabilistic models. We identify four desirable properties that are important for
+scalability, expressiveness and robustness, when learning and
+inferring with a combination of multiple models. Through analysis and experiments,
+we show that gPoE of Gaussian processes (GP) have these qualities, while no other existing combination schemes satisfy
+all of them at the same time. The resulting GP-gPoE is highly scalable as individual GP experts can be
+independently learned in parallel; very expressive as the way 
+experts are combined depends on the input rather than fixed;
+the combined prediction is still a valid probabilistic model with
+natural interpretation; and finally robust to unreliable predictions
+from individual experts.*
+
+-----------------
+
 `Efficient Optimization for Sparse Gaussian Process Regression <http://arxiv.org/abs/1310.6007>`_
 
 Cao, Y., `Brubaker, M. <http://www.cs.toronto.edu/~mbrubake/>`_,
@@ -47,9 +68,12 @@ Cao, Y., `Brubaker, M. <http://www.cs.toronto.edu/~mbrubake/>`_,
 
 `Project page <opt_sgpr/index.html>`_
 
+
 ================
 
 **TAship**
+
+`CSC2503: Foundations of Computer Vision (Fall 2014)  <http://www.cs.toronto.edu/~kyros/courses/2503/>`_ 
 
 `CSCC11: Introduction to Machine Learning and Data Mining (Fall 2013) <http://www.cs.toronto.edu/~mbrubake/teaching/C11-Fall2013/>`_
 
