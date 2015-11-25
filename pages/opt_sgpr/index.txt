@@ -23,9 +23,11 @@
 
 |
 
-`Paper <http://arxiv.org/abs/1310.6007>`_   
+`Journal paper <opt_sgpr/tpami15_caoy.pdf>`_ `© IEEE <IEEE.copyright.html>`_
 
-`Supplementary material <supplementary_material_opt_sgpr.pdf>`_
+`Conference paper <http://arxiv.org/abs/1310.6007>`_
+
+`Conference paper supplementary material <supplementary_material_opt_sgpr.pdf>`_
 
 `Code <https://github.com/yanshuaicao/gp_cholqr>`_
 

@@ -1,0 +1,39 @@
+.. title: Transductive Combination of Gaussian Process experts
+.. slug: trans-gp
+.. date: 2015-11-25 04:04:26 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+Cao, Y., `Fleet, D.J. <http://www.cs.toronto.edu/~fleet/>`_
+
+-----------------
+
+`Transductive Log Opinion Pool of Gaussian Process Experts <http://arxiv.org/abs/1511.07551>`_
+
+*NIPS2015 Workshop on Nonparametric Methods for Large Scale Representation Learning*, Montreal, 2015.
+
+We introduce a framework for analyzing transductive combination of Gaussian process (GP) experts, where independently trained GP experts are combined in a way that depends on test point location, in order to scale GPs to big data. The framework provides some theoretical justification for the generalized product of GP experts (gPoE-GP) which was previously shown to work well in practice but lacks theoretical basis. Based on the proposed framework, an improvement over gPoE-GP is introduced and empirically validated.
+
+-----------------
+
+`Generalized Product of Experts for Automatic and Principled Fusion of Gaussian Process Predictions <http://arxiv.org/abs/1410.7827>`_
+
+*Modern Nonparametrics 3: Automating the Learning Pipeline workshop at NIPS*, Montreal, 2014.
+
+*In this work, we propose a generalized product of
+experts (gPoE) framework for combining the predictions of multiple
+probabilistic models. We identify four desirable properties that are important for
+scalability, expressiveness and robustness, when learning and
+inferring with a combination of multiple models. Through analysis and experiments,
+we show that gPoE of Gaussian processes (GP) have these qualities, while no other existing combination schemes satisfy
+all of them at the same time. The resulting GP-gPoE is highly scalable as individual GP experts can be
+independently learned in parallel; very expressive as the way 
+experts are combined depends on the input rather than fixed;
+the combined prediction is still a valid probabilistic model with
+natural interpretation; and finally robust to unreliable predictions
+from individual experts.*
+
+
